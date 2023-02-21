@@ -48,9 +48,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Easy-Blogs] <a name="about-project"></a>
+# 📖 [Hello_React_Rails] <a name="about-project"></a>
 
-**[Easy-Blogs]** is a simple looking yet powerful blog app in which user can post blogs and the readers can like and comment on the blogs. it is built using Rails primarily.
+**[Hello_React_Rails]** is a practice project in which I configured react and rails as one app. I used rails to create an api and then used react as a front-end client.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="">React</a></li>
   </ul>
 </details>
 
@@ -81,9 +81,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Adding blog posts]**
-- **[Ability to get likes on the blog post]**
-- **[Ability to get the comment on the blog post]**
+- **[Configuring rails 7 with react]**
+- **[Ability to use redux as state management tool]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,6 +105,8 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - `Ruby`
+- `yarn`
+- `npm`
 - `Rails`
 - `Postgresql`
 - `IDE`
@@ -115,7 +116,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/Zuhaib042/EasyBlogs.git
+git clone https://github.com/Zuhaib042/hello_rails_react.git
 ```
 
 ### Install
@@ -123,6 +124,7 @@ git clone https://github.com/Zuhaib042/EasyBlogs.git
 To install all dependencies, run this command in the project's directory:
 
 `bundle install`
+`npm install`
 
 ### Usage
 
@@ -130,13 +132,11 @@ To run the project, execute the following command:
 
 - After cloning and installing the dependencies, you can run this command in the project's directory to run it on local server:
 
-`rails server`
+`./bin/dev`
 
 ### Run tests
 
-To run tests, run the following command:
-
-`rubocop`
+N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,12 +152,6 @@ To run tests, run the following command:
 - Twitter: [@Zuhaib042](https://twitter.com/Zuhaib042)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **OmarMWarraich**
-
-- GitHub: [@OmarMWarraich](https://github.com/OmarMWarraich)
-- Twitter: [@omarwarraich1](https://twitter.com/omarwarraich1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/o-va)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -166,8 +160,8 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Adding more users]**
-- [ ] **[Implement methods for easy blogging]**
+- [ ] **[Adding more components]**
+- [ ] **[Implement Styling]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
